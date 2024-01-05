@@ -1,0 +1,185 @@
+.navBar {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-collapse:collapse;
+    border-radius:5px;
+    padding-left:40px;
+    padding-right:40px;
+    box-shadow:#d189cd 6px 7px 8px 10px; 
+    font-size: 25px;
+    color: white; 
+}
+
+.navBar li {
+        display:block;
+        box-sizing:border-box;
+        border:violet 3px outset;     
+        border-radius:7px;                 
+        }
+    
+ 
+a:active {
+  text-decoration: underline;
+}
+li a:hover:not(.active) {
+  background-color: #e7e3a7;
+}
+
+.active {
+  background-color: purple;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: violet;
+  min-width: 160px;
+  box-shadow: 0px;
+
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  animation: slide-down 0.5s ease-in-out;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  position: relative;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  background: linear-gradient(to left, bisque, violet);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.login {
+  width: 300px;
+  text-align: center;
+  overflow: hidden;
+  margin: auto;
+  padding: 80px;
+  background: rgb(201, 112, 178);
+  border-radius: 15px;
+  box-shadow:
+   6px 6px 0px #0e0f0f,
+    5px 5px 0px #0e0c0c,
+    4px 4px 0px #999,
+    3px 3px 0px #999,
+    2px 2px 0px #999, 
+    1px 1px 0px #999;
+}
+
+Img {
+  display: grid;
+  position: relative;
+  top:10px;
+  border-radius: 50%;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  box-shadow: 2px 2px 0px black, 1px 1px 0px blue;
+
+}
+div.header{
+  font-size:4rem;
+  text-align: center;
+  position: relative;
+  top:10px;
+  color: #0e0f0f;
+  border-radius: 17px;
+  padding-left: 5px;
+}
+
+h1 {
+  font-size:4rem ;
+  text-align: center;
+  position: relative;
+   color: #0e0f0f;
+  border-radius: 17px;
+  padding-left: 5px;
+}
+label {
+  color: whitesmoke;
+  font-size: 17px;
+  justify-content: center;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  padding: 10px;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+form #login{
+  display: grid;
+    align-content: space-between;
+    justify-content: center;
+}
+
+
+#ULog {
+  text-align: center;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  width: 200px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+#Pass {
+  text-align: center;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  width: 200px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+button {
+  text-align: center;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: white;
+  color: black;
+  width: 100px;
+  height: 20px;
+  border: none;
+  border-radius: 17px;
+  padding-left: 5px;
+}
+button:hover {
+  opacity: 75%;
+}
+span {
+  color: dark skyblue;
+  font-size: 17px;
+  }
+
+a {
+  background: border-box;
+}
+
+table, th, td {
+   border: 1px solid;
+}
